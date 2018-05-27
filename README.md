@@ -166,8 +166,8 @@ If you require further assistance contact the support team @ [Discord](https://d
 # Section E: Connecting & Starting the masternode 
 
 ***Step 1***
-* Go to the tools tab within the wallet and click open "masternode configuration file" 
-![Example-create](https://i.imgur.com/COsfvfA.png)
+* Go to the MamboNodes tab within the wallet and click "Create" 
+![Example-create](https://i.imgur.com/F5Oar1j.png)
 ***
 
 ***Step 2***
@@ -198,12 +198,4 @@ Click "File Save"
 
 If you do, congratulations! You have now setup a masternode. If you do not, please contact support and they will assist you.  
 ***
-
-## Donations:  
-
-Any donation is highly appreciated.  
-
-**BCH**: qzgnck23pwfag8ucz2f0vf0j5skshtuql5hmwwjhds  
-**ETH**: 0x765eA1753A1eB7b12500499405e811f4d5164554  
-**LTC**: LNt9EQputZK8djTSZyR3jE72o7NXNrb4aB  
 
