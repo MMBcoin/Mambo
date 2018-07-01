@@ -6,8 +6,8 @@ CONFIGFOLDER='/root/.MamboCoin'
 COIN_DAEMON='mambocoind'
 COIN_CLI='mambocoind'
 COIN_PATH='/usr/local/bin/'
-COIN_REPO='https://github.com/MamboCoin/MamboCoin.git'
-COIN_TGZ='https://github.com/Realbityoda/Mambo/releases/download/v1.0.0/mambocoin.tar.gz'
+COIN_REPO='https://github.com/MMBcoin/MamboCoin.git'
+COIN_TGZ='https://github.com/MMBcoin/MamboCoin/releases/download/V1.0.1/mambocoind.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 SENTINEL_REPO='N/A'
 COIN_NAME='MamboCoin'
@@ -46,7 +46,7 @@ function download_node() {
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
   compile_error
-  tar xvzf $COIN_ZIP >/dev/null 2>&1
+  uzip -o $COIN_ZIP >/dev/null 2>&1
   chmod +x $COIN_DAEMON $COIN_CLI
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
   cd ~ >/dev/null 2>&1
@@ -236,7 +236,7 @@ if [ "$?" -gt "0" ];
     echo "apt-get update"
     echo "apt install -y make build-essential libtool software-properties-common autoconf libssl-dev libboost-dev libboost-chrono-dev libboost-filesystem-dev \
 libboost-program-options-dev libboost-system-dev libboost-test-dev libboost-thread-dev sudo automake git curl libdb4.8-dev \
-bsdmainutils libdb4.8++-dev libminiupnpc-dev libgmp3-dev ufw pkg-config libevent-dev libdb5.3++ unzip libzmq5"
+bsdmainutils libdb4.8++-dev libminiupnpc-dev libgmp3-dev ufw pkg-config libevent-dev libdb5.3++ unzip libzmq5 unzip"
  exit 1
 fi
 clear
