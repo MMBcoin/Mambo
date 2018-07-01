@@ -2,7 +2,10 @@
 # Mambo Masternode Setup Guide (Ubuntu 16.04)
 This guide will assist you in setting up a Mambo Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/QaucC34)
+If you require further assistance contact the support team @ [Discord](https://discord.gg/N5yMNdQ)
+## Join Our Community on Discord!<br>
+<a href="https://discord.gg/N5yMNdQ"><img src="https://i.imgur.com/ozcqH6a.png" title="MamboCoin Discord" /></a>
+
 ***
 ## Requirements
 1) **30,000 Mambo coins.**
@@ -11,16 +14,16 @@ If you require further assistance contact the support team @ [Discord](https://d
 4) **An SSH client such as [Bitvise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
 ***
 ## Contents
-* **Section A**: Creating the VPS within [Vultr](https://www.vultr.com/?ref=7296974).
+* **Section A**: Creating the VPS within [Vultr](https://www.vultr.com/?ref=6904016).
 * **Section B**: Downloading and installing Bitvise.
 * **Section C**: Connecting to the VPS and installing the MN script via Bitvise.
 * **Section D**: Preparing the local wallet.
 * **Section E**: Connecting & Starting the masternode.
 ***
 
-## Section A: Creating the VPS within [Vultr](https://www.vultr.com/?ref=7296974) 
+## Section A: Creating the VPS within [Vultr](https://www.vultr.com/?ref=6904016) 
 ***Step 1***
-* Register at [Vultr](https://www.vultr.com/?ref=7296974)
+* Register at [Vultr](https://www.vultr.com/?ref=6904016)
 ***
 
 ***Step 2***
@@ -133,7 +136,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section D: Preparing the Local wallet
 
 ***Step 1***
-* Download and install the Mambo wallet [here](https://github.com/MamboCoin/MamboCoin/releases)
+* Download and install the Mambo wallet [here](hhttps://github.com/MMBcoin/MamboCoin/releases/latest)
 ***
 
 ***Step 2***
@@ -196,6 +199,9 @@ Click "File Save"
 
 *You should see ***status 9***
 
-If you do, congratulations! You have now setup a masternode. If you do not, please contact support and they will assist you.  
+If you do, congratulations! You have now setup a masternode. If you do not, please contact support BELOW and they will assist you.  
 ***
+
+## Join Our Community on Discord!<br>
+<a href="https://discord.gg/N5yMNdQ"><img src="https://i.imgur.com/ozcqH6a.png" title="MamboCoin Discord" /></a>
 
